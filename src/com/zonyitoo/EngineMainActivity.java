@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class EngineMainActivity extends Activity {
     Button boxtest;
+    Button phototest;
 	
 	/** Called when the activity is first created. */
     @Override
@@ -22,6 +23,16 @@ public class EngineMainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				startActivity(new Intent(EngineMainActivity.this, ExampleScrollingBox.class));
+				
+			}
+        	
+        });
+        phototest = (Button) findViewById(R.id.button_testphotos);
+        phototest.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(EngineMainActivity.this, ExampleTurning.class));
 				
 			}
         	

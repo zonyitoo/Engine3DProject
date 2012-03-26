@@ -22,6 +22,9 @@
             android:name=".ExampleScrollingBox"
             android:label="ScrollingBox">
         </activity>
+        <activity 
+            android:name=".ExampleTurning"
+            android:label="Rotating"></activity>
     </application>
 
 </manifest>

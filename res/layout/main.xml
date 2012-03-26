@@ -13,5 +13,10 @@
         android:layout_height="wrap_content"
         android:text="test box"
         android:id="@+id/button_testbox"/>
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="test photos"
+        android:id="@+id/button_testphotos"/>
 
 </LinearLayout>

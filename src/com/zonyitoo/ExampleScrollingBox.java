@@ -52,14 +52,14 @@ public class ExampleScrollingBox extends RendererActivity {
 		scene.addChild(_box);
 		scene.addChild(_desk);
 	}
-	/*
+	
 	@Override
 	public void updateScene() {
 		_box.rotation().y ++;
 		_box.rotation().z ++;
 		_box.rotation().x ++;
 	}
-	*/
+	
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
 		return gestureDetec.onTouchEvent(event);
